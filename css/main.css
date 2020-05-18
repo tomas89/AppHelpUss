@@ -1,0 +1,71 @@
+@font-face { font-family: "Segoe"; src: url(../fonts/UI.ttf); }
+
+body { margin: 0px; padding: 0px; }
+
+body .container { font-family: "Segoe"; }
+
+body .container .number { display: -webkit-box; display: -ms-flexbox; display: flex; -ms-flex-wrap: wrap; flex-wrap: wrap; }
+
+body .container .number h3 { text-align: center; width: 100%; }
+
+body .container .number input[type='number'] { width: 50%; display: block; margin: auto; }
+
+body .container .img { margin: 40px 0px; }
+
+body .container .img img { display: block; margin: auto; width: 100%; max-width: 350px; }
+
+body .container .cardsImg { position: relative; top: 106px; margin: 10px 15px; }
+
+body .container .cardsImg p { font-size: 20px; }
+
+body .container .cardsImg h3, body .container .cardsImg p { text-align: center; }
+
+body .container .cardsImg img { width: 100%; max-width: 280px; display: block; margin: 0 auto; }
+
+body .container .next { background: #45B27F; padding: 15px 40px; border-radius: 30px; text-decoration: none; color: #fff; float: right; margin: 10px 50px; -webkit-box-shadow: 0px 1px 5px black; box-shadow: 0px 1px 5px black; }
+
+body .container .items { -webkit-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.4); box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.4); display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: space-evenly; -ms-flex-pack: space-evenly; justify-content: space-evenly; }
+
+body .container .items .envias { width: 50%; border-right: 1px solid rgba(0, 0, 0, 0.1); text-align: center; }
+
+body .container .total { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: center; -ms-flex-align: center; align-items: center; }
+
+body .container .envSol { display: -webkit-box; display: -ms-flexbox; display: flex; -ms-flex-pack: distribute; justify-content: space-around; position: fixed; bottom: 5px; width: 100%; border-top: 1px solid rgba(0, 0, 0, 0.4); }
+
+body .container .envSol a { cursor: pointer; color: rgba(0, 0, 0, 0.6); padding: 20px; text-decoration: none; font-weight: bold; }
+
+body .container .item { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; -webkit-box-shadow: 0px 1px 2px #666; box-shadow: 0px 1px 2px #666; padding: 1px 25px; }
+
+body .container .item input[type="text"] { padding: 20px 50px; width: 100%; border: none; -webkit-box-shadow: 0px 1px 2px #666; box-shadow: 0px 1px 2px #666; color: rgba(0, 0, 0, 0.5); }
+
+body .container .item .fas { left: 20px; position: absolute; top: 100px; }
+
+body .container .item .cont { margin: 7px 0px; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; -webkit-box-align: center; -ms-flex-align: center; align-items: center; }
+
+body .container .item .cont .enviar { background: #ecf0f1; position: absolute; top: 260px; right: 28px; height: 70px; width: 170px; text-align: center; padding: 25px 0; }
+
+body .container .item .cont .enviar a { cursor: pointer; text-decoration: none; }
+
+body .container .item .cont .circle { border-radius: 50%; background: lightskyblue; height: 50px; width: 50px; text-align: center; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: center; -ms-flex-align: center; align-items: center; border: 2px solid rgba(0, 0, 0, 0.3); }
+
+body .container .item .cont div { line-height: 5px; font-size: 12px; }
+
+body .container .white { background: #fff !important; }
+
+body .container .white a i { color: #000 !important; }
+
+body .container .white h3 { color: #000 !important; }
+
+body .container .sub-contain { background: #45B27F; color: #fff; padding: 10px 20px; -webkit-box-shadow: 0px 2px 5px #666; box-shadow: 0px 2px 5px #666; }
+
+body .container .sub-contain a i { color: #fff; }
+
+body .container .sub-contain h3 { width: 90%; display: inline-block; text-align: center; }
+
+body .container .saldo { -webkit-box-shadow: 0px 2px 5px #666; box-shadow: 0px 2px 5px #666; border-radius: 5px; width: 80%; margin: 25px auto; padding: 5px 18px; line-height: 10px; color: rgba(0, 0, 0, 0.6); }
+
+body .container .saldo h2 { font-size: 50px; margin: 29px -10px; }
+
+body .container .saldo + div { margin: 35px 20px; }
+
+body .container .saldo + div a { text-align: center; cursor: pointer; display: inline-block; text-decoration: none; color: #45B27F; font-weight: bold; }

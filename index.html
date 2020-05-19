@@ -29,8 +29,13 @@
         </div>
 
         <div class="envSol">
-           <a href="enviar.html">Enviar</a> 
-           <a href="solicitar.html">Solicitar</a>
+            <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                <input type="hidden" name="cmd" value="_donations" />
+                <input type="hidden" name="business" value="tfbm89@gmail.com" />
+                <input type="hidden" name="item_name" value="realizar donaciones" />
+                <input type="hidden" name="currency_code" value="USD" />
+                <input type="submit" src="" border="0" name="submit" style="background:#fff; color:#45B27F; padding: 30px 10px; border-radius: 10px; border: none; cursor: pointer; font-weight: 900; font-size: 18px;" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" value="Donar Ahora" />
+           </form> 
         </div>
 
     </div>

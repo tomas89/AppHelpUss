@@ -136,25 +136,31 @@ height: 100%;
 }
 
 #banner h2 {
-    font-size: 28px;
+    font-size: 30px;
+
 }
 
 #banner a {
     display: block;
     width: 200px;
-    color: orange;
+    color:  #1AC269;
     text-decoration: none;
     padding: 7px;
     margin-top: 10px;
-    border: 3px solid rgb(172, 173, 159);
+    border: 3px solid #1AC269;
    font-weight: 900;
+   border-radius: 20px;
+     }
    
-    
-   
-}
+ .icono {
+color:rgb(173, 15, 15);
+font-size: larger;
+
+
+   }
 
 #banner a:hover {
-    background: rgba(196, 129, 21, 0.5);
+    background: rgba(21, 196, 88, 0.5);
 }
 
 @media (min-width:480px) {
@@ -253,7 +259,7 @@ header label {
 }
 
 .menu a:hover {
-    background: rgba(255,255,255,0.3);
+    background: rgba(3, 20, 246, 0.3);
 }
 
 #menu-bar:checked ~ .menu {

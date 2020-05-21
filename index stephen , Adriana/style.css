@@ -21,7 +21,7 @@ body {
 header {
     width: 100%;
     height: 50px;
-    background: #333;
+    background: #0B6BB4;
     color: #fff;
     
     position: fixed;
@@ -33,6 +33,7 @@ header {
 .contenedor {
     width: 98%;
     margin: auto;
+   
 }
 
 h1 {
@@ -49,7 +50,7 @@ section {
 }
 
 #bienvenidos {
-    text-align: center;
+    text-align: justify;
 }
 
 footer .contenedor {
@@ -158,7 +159,7 @@ height: 100%;
 
 @media (min-width:480px) {
     #banner h2 {
-        font-size: 40px;
+        font-size: 45px;
     }
     
     #banner a {
@@ -185,7 +186,7 @@ height: 100%;
 }
 
 #info {
-    background: #333;
+    background: #0B6BB4;
     color: #fff;
     text-align: center;
     padding: 20px;
@@ -245,6 +246,7 @@ header label {
     display: block;
     color: #fff;
     height: 50px;
+    background-color: #0B6BB4;
     text-decoration: none;
     padding: 15px;
     border-bottom: 1px solid rgba(255,255,255,0.3);

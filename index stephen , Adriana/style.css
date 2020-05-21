@@ -8,10 +8,17 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
 }
 
 body {
     font-family: 'Open Sans', sans-serif;
+    
+}
+
+#CONT{
+background-color: whitesmoke;
+
 }
 
 #logohead
@@ -21,7 +28,7 @@ body {
 header {
     width: 100%;
     height: 50px;
-    background: #0B6BB4;
+    background: #006B6B;
     color: #fff;
     
     position: fixed;
@@ -34,10 +41,41 @@ header {
     width: 98%;
     margin: auto;
    
+  
+   
+}
+
+ .contenedor .copy{
+     display: flex;
+     align-items: center;
+     
+     
+}   
+
+
+.interes{
+font-weight: bolder;
+font-size: x-large;
+
+
+}
+    
+    .tituloblog{
+    color: orangered;
+font-weight: 600;
+font-size: x-large;
+ }
+    
+
+.titulocon {
+color: orangered;
+
+
 }
 
 h1 {
     float: left;
+    font-size: 40px;
 }
 
 header .contenedor {
@@ -46,11 +84,14 @@ header .contenedor {
 
 section {
     width: 100%;
-    margin-bottom: 25px;
+    margin-bottom: 4px;
 }
 
 #bienvenidos {
     text-align: justify;
+    background-color: whitesmoke ;
+
+  
 }
 
 footer .contenedor {
@@ -61,23 +102,30 @@ footer .contenedor {
     
 }
 
+footer{
 
+    background-color: #0B9761;
+    display: flex;
+    padding-top: 19px;
+}
 
 }
 
 .copy {
     font-size: 20px;
+  
 }
 
 .sociales {
     width: 100%;
     text-align: center;
-    font-size: 28px;
+    font-size: 35px;
 }
 
 .sociales a {
-    color: #333;
+    color: white;
     text-decoration: none;
+    
 }
 
 @media (min-width:768px) { 
@@ -111,20 +159,41 @@ footer .contenedor {
 #blog article {
     margin: 15px;
 }
+#blog{
+    background-color: whitesmoke;
+}
+
+.imagencentro{
+display: flex;
+
+padding-bottom: 20px;
+
+
+}
+
 
 #blog img {
     width: 100%;
     max-width: 280px;
-height: 100%;
+    height: 100%;
+    border-radius:10px ;
+   border: solid 4px orangered;
 }
 #banner {
     margin-top: 50px;
     position: relative;
+   
 }
 
 #banner img {
     width: 100%;
     height: 100%;
+   
+}
+
+.subdivicion {
+color: black;
+
 }
 
 #banner .contenedor {
@@ -132,7 +201,7 @@ height: 100%;
     top: 50%;
     left: 50%;
     transform: translateX(-50%) translateY(-50%);
-    color: gold;
+    color: #0B9761;
 }
 
 #banner h2 {
@@ -143,13 +212,15 @@ height: 100%;
 #banner a {
     display: block;
     width: 200px;
-    color:  #1AC269;
+    color:  rgb(4, 49, 25);
     text-decoration: none;
     padding: 7px;
     margin-top: 10px;
-    border: 3px solid #1AC269;
+    background-color: #1AC269 ;
+    border: 3px solid #1ac11a69;
    font-weight: 900;
    border-radius: 20px;
+   
      }
    
  .icono {
@@ -187,12 +258,12 @@ font-size: larger;
 
 @media (min-width:1024px) { 
     #banner img {
-        margin-top: -52px;
+        margin-top: -185px;
     }
 }
 
 #info {
-    background: #0B6BB4;
+    background: #006B6B;
     color: #fff;
     text-align: center;
     padding: 20px;
@@ -212,7 +283,7 @@ font-size: larger;
     width: 180px;
     height: 180px;
     border-radius: 50%;
-    border: 7px solid #fff;
+    border: 5px solid rgba(21, 196, 88, 0.5);
 }
 
 @media (min-width:480px) {
@@ -252,7 +323,7 @@ header label {
     display: block;
     color: #fff;
     height: 50px;
-    background-color: #0B6BB4;
+    background-color: #006B6B;
     text-decoration: none;
     padding: 15px;
     border-bottom: 1px solid rgba(255,255,255,0.3);

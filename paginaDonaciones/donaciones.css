@@ -1,21 +1,93 @@
 body{
     display: flex;
     width: 100%;
-    border: 1px solid red;
+    height: 800px;
     justify-content: center;
     font-family: 'Open Sans', sans-serif;
+    
 }
 
 div{
     display: flex;
     flex-direction: column;
-    border: 1px solid green;
-    justify-content: center;
-    width: 100%;
+    width: 98%;
     align-items: center;
+    
+}
+p{
+    padding: 0px 50px 0px 50px;
+}
+
+#pointer {
+    align-self: flex-start;
+    padding-left: 50px;
+    width: 500px;
+    height: 80px;
+    position: relative;
+    background:#F4D03F  ;
+  }
+  #pointer:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 0;
+    border-left: 40px solid white;
+    border-top: 40px solid transparent;
+    border-bottom: 40px solid transparent;
+  }
+  #pointer:before {
+    content: "";
+    position: absolute;
+    right: -40px;
+    bottom: 0;
+    width: 0;
+    height: 0;
+    border-left: 40px solid #F4D03F ;
+    border-top: 40px solid transparent;
+    border-bottom: 40px solid transparent;
+  }
+
+
+@media screen and (max-width: 1400px) {
+h1{
+    font-size: 2rem;
+    font-weight: 600;
+
 }
 
 img{
     width: 400px;
     height: 250px;
+    border-radius: 10px;
+}
+}
+
+@media screen and (max-width: 900px) {
+
+    h1{
+        font-size: 1rem;
+        font-weight: 600;
+    }
+    p, ul {
+        font-size: 0.7rem;
+    }
+
+    img{
+        width: 200px;
+        height: 120px;
+        border-radius: 10px;
+    }
+    }
+
+#ninos{
+    background-color: #73C6B6;
+    border: #F4D03F 2px solid;
+
+}
+
+#animales{
+    background-color: #FAD7A0;
+    border: 2px solid turquoise;
 }

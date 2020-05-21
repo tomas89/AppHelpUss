@@ -5,40 +5,67 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Donaciones</title>
     <link rel="stylesheet" href="./donaciones.css"/>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600&display=swap" rel="stylesheet">
 </head>
 <body>
     <div id="ninos">
-        <h1> Dona para un niño!</h1>
-        <p>
-            Explicación de a que proyecto irá el dinero 
-        </p>
+        <div>
+            <h1 id="pointer"> Dona para un niño</h1>
+            <p>
+                
 
-        <img src="./img/niños.jpg" alt="niños">
+                Los aportes que realices ayudarán a mejorar la calidad de vida de nuestros niños y niñas beneficiarios. 
+                Dado que emplearán en mejorar o brindar servicios de calidad como alimentación, servicios pediátricos 
+                y en la manutención general de los niños. Además, tus donaciones también podrán ser serán asignadas en los
+                siguientes proyectos actuales de Unicef y el Gobierno Colombiano:
+    
+                <ul>
+                    <li>Acceso a agua limpia</li>
+                    <li>Acceso a educación por plataformas virtuales</li>
+                </ul>
 
+            </p>
+        </div>
+       
+
+        <img src="./img/niños.png" alt="niños">
+       
+        <br>
         <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
             <input type="hidden" name="cmd" value="_donations" />
             <input type="hidden" name="business" value="TMHX2TF8EBWKY" />
-            <input type="hidden" name="item_name" value="Donación Niñ@s" />
             <input type="hidden" name="currency_code" value="USD" />
-            <input type="image" width="220" height="53" src="http://laagenciaweb.com/button.png" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
+            <input type="image" width="220" height="53" src="http://laagenciaweb.com/buttonx.png" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
             <img alt="" border="0" src="https://www.paypal.com/en_CO/i/scr/pixel.gif" width="1" height="1" />
         </form>
 
     </div>
     <div id="animales">
-        <h1> Dona para un animalito!</h1>
-        <p>
-            Explicación de a que proyecto irá el dinero 
-        </p>
-
-        <img src="./img/animales.jpg" alt="animales">
-
+        <h1 id="pointer">  Dona para un animalito</h1>
+        <div>
+           
+            <p>
+                Ayudarás a mejorar la vida diaria de los perros y gatos en condición de abandono.
+                Ya que las ayudas se emplearán en ofrecer servicios de calidad  como adquisición de productos de alimentación o cuidado, 
+                servicios veterinarios y  de manutención de los mismos.  
+                Además de esto, estaremos en contacto con entes prestadores de servicios de protección animal para ayudar con los 
+                requerimientos que sean necesarios para brindar una oportuna ayuda a animales rescatados 
+                o que han sufrido accidentes.
+            </p>
+            <br>
+            <br>
+            <br>
+    
+        </div>
+       
+        <img src="./img/animales.png" alt="animales">
+        <br>
         <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
             <input type="hidden" name="cmd" value="_donations" />
             <input type="hidden" name="business" value="TMHX2TF8EBWKY" />
+            <input type="hidden" name="item_name" value="Donación Niñ@s" />
             <input type="hidden" name="currency_code" value="USD" />
-            <input type="image" width="220" height="53" src="http://laagenciaweb.com/button.png" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
+            <input type="image" width="220" height="53" src="http://laagenciaweb.com/buttonx.png" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
             <img alt="" border="0" src="https://www.paypal.com/en_CO/i/scr/pixel.gif" width="1" height="1" />
         </form>
 
